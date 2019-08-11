@@ -1,0 +1,25 @@
+feature ideas
+2019/08/11
+
+No promise I'll even attempt these things of course, just some ideas.
+
+base internalization {
+  when nobody has voted or all votes have expired
+}
+internalization of chat members {
+  might be fun to have a bot that you can say !internalizationOf [username] to and see your own score
+  people jokingly do this sometimes
+}
+integrate with patreon and weight internalization votes {
+  either by current donation amount or by total amount donated
+  some base amount for nonpatrons
+}
+gambling/prediction mode {
+  vote with internalization on whether you think this is the run
+  moderator (or nick) tells bot whether he succeeded or died
+  keep track of people's prediction scores
+  error score = (internalization - (if win then 1 else 0))^2 / number of votes
+  people could cheat it by voting near the end of the run but whatever
+  could make it so you have a narrow voting window so there's more skill involved in predicting
+  would be fairly hard to do and I think most people wouldn't care so I probably won't bother
+}
