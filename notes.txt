@@ -1,0 +1,30 @@
+2019/08/11 1420 EDT
+notes
+
+I use YYYY/MM/DD format for dates in this file. Big endian.
+
+This file contains my (expwnent's) notes on the different versions of internalization running around. The original script was posted by Lokno as a gist, which is like a git repo except it can only contain one file. Since Nick needed multiple versions of the script for different kinds of streams, there were multiple gists. This quickly became hard to keep track of so I created this file in an attempt to figure out which version is which so I can either make a single version of the script that does everything, or at least have a single git repo that has all the most updated versions in it all in one place, along with sound effects involved.
+
+nickjanel.py was in the repo when I got it (except I added the .py extension).
+It makes no mention of Zelda hearts.
+Hardcoded auth.
+
+nickonly.py was in the repo when I got it (except I added the .py extension).
+Has "good play" mp3 references.
+Hardcoded auth.
+
+https://gist.github.com/Lokno/add0dab1f8b76aa03334d839b936b228
+The most recent version as of 2019/05/24.
+idle_nj.py
+Seems to be a version with the hearts for Zelda streams.
+hardcoded auth tokens
+has zelda heart reference
+
+https://gist.github.com/Lokno/6ae9a68b782af38ef94124e365fb1574
+idle.py
+Most recent version as of 2016/12/19.
+Probably too old to be needed?
+has config parser
+has "good play" mp3 referenced
+
+
