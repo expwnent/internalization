@@ -83,8 +83,8 @@ writefile(0)
 while 1:
     text     = irc.recv(2040)
     text = text.decode()
-    if len(text) > 0:
-        print ("Text = %s" % text)
+    #if len(text) > 0:
+    #    print ("Text = %s" % text)
     currTime = time.time()
 
     percM = percRE.search(text)
